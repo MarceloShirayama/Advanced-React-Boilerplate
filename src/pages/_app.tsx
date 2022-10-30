@@ -17,6 +17,8 @@ export default function App({ Component, pageProps }: AppProps) {
           href="/img/icon-512.png"
           type="image/x-icon"
         />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092b" />
         <meta
           name="description"
           content="A simple project starter to work with Typescript, React,
