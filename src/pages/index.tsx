@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+import { Main } from '../components/Main'
+
 export default function Home({ title = 'React Avançado' }) {
   return (
     <div>
@@ -8,7 +10,7 @@ export default function Home({ title = 'React Avançado' }) {
       </Head>
 
       <main>
-        <h1>Welcome to React Avançado!</h1>
+        <Main />
       </main>
     </div>
   )
