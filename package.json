@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --max-warnings=0 --fix",
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "test:ci": "npm test -- --collect-coverage --bail",
